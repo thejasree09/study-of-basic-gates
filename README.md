@@ -82,7 +82,7 @@ Program for logic gates and verify its truth table in quartus using Verilog prog
  assign f7=~(a^b);
 
  endmodule
- 
+ ```
 **Logic symbol & Truthtable**
 ![WhatsApp Image 2025-03-17 at 13 27 11_bae7a4c4](https://github.com/user-attachments/assets/67bfef52-a28e-4bda-a030-5e754404226a)
 **RTL realization Output:**
