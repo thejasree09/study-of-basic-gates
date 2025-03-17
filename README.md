@@ -69,8 +69,9 @@ Program for logic gates and verify its truth table in quartus using Verilog prog
  Developed by:G.Theja sree
  RegisterNumber:212224110056
  module experiment1(a,b,f1,f2,f3,f4,f5,f6,f7);
- input a,b;
- output f1,f2,3,f4,f5,f6,f7;
+    input a,b;
+    output f1,f2,3,f4,f5,f6,f7;
+ 
  assign f1=a&b;
  assign f2=a|b;
  assign f3=~a;
@@ -78,6 +79,7 @@ Program for logic gates and verify its truth table in quartus using Verilog prog
  assign f5=~f2;
  assign f6=a^b;
  assign f7=~(a^b);
+
  endmodule
  
 **Logic symbol & Truthtable**
